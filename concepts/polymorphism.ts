@@ -16,7 +16,7 @@ class Animal1 {
     public makeSound(): void {}
 }
 
-class Dog1 extends Animal {
+class Dog1 extends Animal1 {
     constructor(name: string) {
         super(name);
     }
@@ -26,7 +26,7 @@ class Dog1 extends Animal {
     }
 }
 
-class Cat1 extends Animal {
+class Cat1 extends Animal1 {
     constructor(name: string) {
         super(name);
     }
